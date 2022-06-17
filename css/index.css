@@ -1,0 +1,76 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  overflow-x: hidden;
+}
+.btn {
+  padding: 3px;
+  border-radius: 3px;
+}
+a {
+  text-decoration: none;
+}
+
+/* Table responsive */
+table {
+  border-collapse: collapse;
+}
+
+section.trainers,
+section.users {
+  margin: 20px 10px;
+}
+
+table .btn {
+  width: 100%;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 3px;
+  cursor: pointer;
+}
+
+.options {
+  display: flex;
+  padding: 10px 0;
+  justify-content: space-around;
+}
+
+.options a {
+  padding: 5px;
+  margin: 0 10px;
+}
+
+thead tr th {
+  text-align: start;
+  padding: 10px 10px 10px 0;
+}
+
+td {
+  text-align: start;
+  padding: 5px;
+  border-bottom: 1px solid #ccc;
+}
+
+tbody tr:nth-child(even) {
+  background-color: #a4a1a1;
+}
+
+tbody {
+  overflow: auto;
+}
+
+@media screen and (min-width: 600px) {
+  table {
+    width: 100%;
+  }
+  .options {
+    display: flex;
+    padding: 10px 0;
+    justify-content: flex-start;
+  }
+}
+
+.table {
+  overflow-x: auto;
+}

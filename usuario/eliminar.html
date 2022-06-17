@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/css/form.css">
+  <link rel="stylesheet" href="/css/index.css">
+  <title>Eliminar Usuario</title>
+  <script defer src="/js/eliminar.js"></script>
+</head>
+
+<body>
+  <main>
+    <form class="form" id="form">
+      <a class="btn btn-danger" href="../index.html">Volver</a>
+      <h1>Eliminar un usuario</h1>
+      <div class="form-group">
+        <label for="nombre">Id del usuario a eliminar</label>
+        <select name="id" id="id" required>          
+        </select>
+      </div>      
+      <input type="hidden" id="tipo" value="1">
+      <div class="form-group">
+        <button type="submit" class="btn btn-danger">Eliminar</button>
+      </div>
+    </form>
+  </main>
+</body>
+</html>
